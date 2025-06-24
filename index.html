@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Kampanii Płatnych EDORADCA (5k PLN - Kredyt Ekologiczny)</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brand-navy: #1a2a4c;
+            --brand-green-accent: #4caf50;
+            --brand-gray-accent: #e0e0e0;
+            --brand-white: #ffffff;
+            --brand-navy-light: #2a3f6b;
+            --brand-text-dark: #333333;
+            --brand-text-light: #6c757d;
+            --brand-bg: #f8f9fa;
+            --brand-border-light: #dee2e6;
+            --brand-border-medium: #ced4da;
+            --brand-header-bg: #f5f8ff;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--brand-bg);
+            color: var(--brand-text-dark);
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--brand-navy);
+        }
+        .container-main { max-width: 1200px; margin: 2rem auto; padding: 2rem; background-color: var(--brand-white); border-radius: 0.75rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 1.5rem; 
+            font-size: 0.9rem;
+            table-layout: fixed; /* Fix for table layout */
+        }
+        th, td { 
+            border: 1px solid var(--brand-border-light); 
+            padding: 0.75rem; 
+            text-align: left; 
+            vertical-align: top;
+            word-break: break-word; /* Fix for long text */
+        }
+        th { background-color: var(--brand-header-bg); font-weight: 600; color: var(--brand-navy); }
+        td ul { list-style: none; padding-left: 0; margin: 0; }
+        td ul li { margin-bottom: 0.25rem; padding-left: 1.25rem; position: relative; }
+        td ul li:not(.note-li)::before { content: '✓'; position: absolute; left: 0; color: var(--brand-green-accent); font-weight: 900; font-size: 1.1em; top: -0.1em; }
+        .budget-highlight { font-weight: 600; color: var(--brand-navy-light); }
+        .total-budget-row td { font-weight: 700; background-color: var(--brand-gray-accent); color: var(--brand-navy); }
+        .month-section { margin-bottom: 2.5rem; }
+        .month-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--brand-green-accent); }
+        .ad-type { font-style: italic; color: var(--brand-text-light); font-size: 0.85rem; }
+        .copy-block { background-color: #f8f9fa; border: 1px dashed var(--brand-border-medium); padding: 0.75rem; border-radius: 0.25rem; margin-top: 0.5rem; }
+        .notes { font-size: 0.8rem; color: var(--brand-text-light); margin-top: 1.5rem; padding: 1rem; background-color: #f9fafb; border-left: 4px solid var(--brand-green-accent); border-radius: 0.25rem; }
+    </style>
+</head>
+<body>
+    <div class="container-main">
+        <h1 class="text-3xl font-bold text-center mb-2">Szczegółowy Plan Kampanii Płatnych (5000 PLN/mc)</h1>
+        <h2 class="text-xl text-center mb-8" style="color: var(--brand-navy-light);">Produkt: Kredyt Ekologiczny</h2>
+
+        <div class="month-section">
+            <h3 class="month-title">Miesiąc 1: Budowanie Zaufania i Generowanie Popytu</h3>
+            <p class="mb-4 text-sm"><strong>Cel Miesiąca:</strong> Uruchomienie kampanii wielokanałowej w celu dotarcia do decydentów w firmach produkcyjnych po audycie energetycznym. Fokus na budowanie pozycji eksperta (Thought Leadership) i przechwytywanie zapytań o wysokiej intencji. Bezpośrednie kierowanie na zoptymalizowany formularz na stronie.</p>
+            <table>
+                <colgroup>
+                    <col style="width: 15%;">
+                    <col style="width: 15%;">
+                    <col style="width: 20%;">
+                    <col style="width: 25%;">
+                    <col style="width: 15%;">
+                    <col style="width: 10%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Kanał Reklamowy</th>
+                        <th>Kampania / Cel</th>
+                        <th>Zestaw Reklam (Ad Set) / Grupa Reklam</th>
+                        <th>Rodzaje Reklam / Przykładowe Treści</th>
+                        <th>Cel Szczegółowy / Targetowanie</th>
+                        <th>Budżet Miesięczny</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2" style="vertical-align: top; background-color: #f5f8ff;"><strong>LinkedIn Ads</strong><br><span class="budget-highlight">(Łącznie: 2500 PLN)</span></td>
+                        <td><strong>Kampania 1: Budowanie Pozycji Eksperta (Cel: Zaangażowanie / Ruch)</strong></td>
+                        <td><strong>Zestaw 1:</strong> Thought Leadership Ads <br><span class="ad-type">(z profilu CEO lub handlowca)</span></td>
+                        <td>
+                            <ul>
+                                <li>Reklama 1: <span class="ad-type">Post osobisty, edukacyjny, skupiony na realnym problemie klienta (pain point). Nie jest to reklama wprost.</span>
+                                    <div class="copy-block">"Lokalizacja inwestycji to pułapka, w którą wpada wiele firm starających się o Kredyt Ekologiczny. Droga gminna może przekreślić szanse na dotację. Warto wiedzieć, że nowe zasady są znacznie bardziej rygorystyczne niż w poprzednim naborze. Chcesz wiedzieć, jak uniknąć tego błędu? Daj znać w komentarzu, chętnie podpowiem."</div>
+                                </li>
+                                <li class="note-li !pl-0 mt-2"><span class="ad-type"><strong>Uwaga:</strong> Celem tego formatu jest budowanie zaufania poprzez dzielenie się wiedzą, w przeciwieństwie do dark postów, które są bardziej bezpośrednio sprzedażowe.</span></li>
+                            </ul>
+                        </td>
+                        <td>Budowanie zaufania i autorytetu. Targetowanie: Dyrektorzy Finansowi, Dyrektorzy Zakładów, Energy Managerowie, Facility Managerowie w firmach produkcyjnych 250-3000 pracowników.</td>
+                        <td class="budget-highlight">~1000 PLN</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Kampania 2: Generowanie Leadow (Cel: Konwersje na stronie)</strong></td>
+                        <td><strong>Zestaw 1:</strong> Dark Posts - Problemy i Rozwiązania</td>
+                        <td>
+                            <ul>
+                                <li>Reklama 1: <span class="ad-type">Statyk/Karuzela (CTA: Umów konsultację)</span>
+                                     <div class="copy-block">"Sama fotowoltaika nie wystarczy, by uzyskać Kredyt Ekologiczny? To prawda. Projekt musi podnosić efektywność energetyczną. Pomożemy Ci połączyć OZE z modernizacją maszyn, aby spełnić warunki i uzyskać do 70% dofinansowania. Sprawdź, jak możemy pomóc."</div>
+                                </li>
+                                 <li>Reklama 2: <span class="ad-type">Statyk (CTA: Sprawdź swój projekt)</span>
+                                     <div class="copy-block">"Twój audyt energetyczny leży w szufladzie? Zamień rekomendacje w realne oszczędności dzięki Kredytowi Ekologicznemu. Finansujemy wymianę maszyn, termomodernizację i OZE. Umów bezpłatną konsultację i poznaj swoje możliwości."</div>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>Generowanie zapytań przez formularz na stronie. Targetowanie: te same stanowiska, co wyżej, z ewentualnym zawężeniem do najbardziej zaangażowanych.</td>
+                        <td class="budget-highlight">~1500 PLN</td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; background-color: #e8f5e9;"><strong>Google Ads</strong><br><span class="budget-highlight">(Łącznie: 1500 PLN)</span></td>
+                        <td><strong>Kampania 1: Search - Zapytania o Kredyt Ekologiczny (Cel: Leady)</strong></td>
+                        <td>
+                            <div>Ad Group 1: Frazy ogólne</div>
+                            <div class="mt-2">Ad Group 2: Frazy problemowe</div>
+                        </td>
+                        <td>
+                            <span class="ad-type">Reklamy tekstowe RSA kierujące na LP z formularzem.</span>
+                             <div class="copy-block">Nagłówek: "Kredyt Ekologiczny dla Firm | EDORADCA" <br>Opis: "Uzyskaj dofinansowanie po audycie energetycznym. Wsparcie w modernizacji i OZE. Wypełnij wniosek z nami. Bezpłatna konsultacja!"</div>
+                        </td>
+                        <td>Przechwycenie zapytań od firm aktywnie szukających finansowania. Słowa kluczowe: `kredyt ekologiczny dla firm`, `dofinansowanie po audycie energetycznym`, `dotacja na wymianę maszyn`.</td>
+                        <td class="budget-highlight">1500 PLN</td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; background-color: #fff3e0;"><strong>Meta Ads</strong><br><span class="budget-highlight">(Łącznie: 1000 PLN)</span></td>
+                        <td><strong>Kampania 1: Remarketing (Cel: Konwersje)</strong></td>
+                        <td><strong>Zestaw 1:</strong> Odwiedzający stronę z LinkedIn/Google</td>
+                        <td>
+                            <ul>
+                                <li>Reklama 1: <span class="ad-type">Statyk (CTA: Dokończ zapytanie)</span>
+                                    <div class="copy-block">"Interesuje Cię Kredyt Ekologiczny? Nie zostawiaj tego na później. Nabór trwa do 31.01.2025. Nasi eksperci bezpłatnie sprawdzą Twój projekt. Porozmawiajmy!"</div>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>"Dogrzanie" leadów, które były na stronie, ale nie wypełniły formularza. Budowanie listy remarketingowej.</td>
+                        <td class="budget-highlight">1000 PLN</td>
+                    </tr>
+                    <tr class="total-budget-row">
+                        <td colspan="5"><strong>Miesięczny Budżet Całkowity</strong></td>
+                        <td><strong>5000 PLN</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="notes">
+                <strong>Uwagi do Miesiąca 1:</strong> Strategia opiera się na dwutorowym podejściu na LinkedIn: budowaniu autorytetu przez eksperta i bezpośrednim generowaniu leadów z reklam firmowych. Google Ads pełni rolę "domykającą" dla osób aktywnie szukających rozwiązania. Meta Ads skupia się wyłącznie na remarketingu, aby maksymalnie wykorzystać ruch z droższych kanałów.
+            </div>
+        </div>
+
+        <div class="month-section">
+            <h3 class="month-title">Miesiąc 2: Optymalizacja i Skalowanie Najlepszych Działań</h3>
+            <p class="mb-4 text-sm"><strong>Cel Miesiąca:</strong> Analiza CPL (koszt za leada) i jakości zapytań z poszczególnych kanałów. Przesunięcie budżetu w kierunku najskuteczniejszych kampanii i kreacji. Testowanie nowych wariantów komunikatów.</p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Kanał Reklamowy</th>
+                        <th colspan="3">Działania i Optymalizacje</th>
+                        <th>Budżet Miesięczny</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="vertical-align: top; background-color: #f5f8ff;"><strong>LinkedIn Ads</strong></td>
+                        <td colspan="3">
+                             <ul>
+                                <li>Analiza, które posty (eksperckie vs firmowe) generują tańsze i lepsze jakościowo leady.</li>
+                                <li>Zwiększenie budżetu na najskuteczniejszą kampanię.</li>
+                                <li>Test A/B kreacji w kampanii na konwersje (np. grafika vs karuzela z case study).</li>
+                            </ul>
+                        </td>
+                        <td class="budget-highlight">~2500 PLN</td>
+                    </tr>
+                     <tr>
+                        <td style="vertical-align: top; background-color: #e8f5e9;"><strong>Google Ads</strong></td>
+                        <td colspan="3">
+                            <ul>
+                                <li>Analiza wyszukiwanych haseł, dodawanie wykluczeń, aby uniknąć niepasujących zapytań.</li>
+                                <li>Optymalizacja tekstów reklam (RSA) w oparciu o CTR i współczynnik konwersji.</li>
+                                <li>Pauza najdroższych słów kluczowych, które nie przynoszą konwersji.</li>
+                            </ul>
+                        </td>
+                        <td class="budget-highlight">~1500 PLN</td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; background-color: #fff3e0;"><strong>Meta Ads</strong></td>
+                        <td colspan="3">
+                            <ul>
+                                <li>Jeśli remarketing jest skuteczny, testowanie kreacji wideo (np. krótka wypowiedź eksperta).</li>
+                                <li>Sprawdzenie, czy zebrana publiczność jest wystarczająco duża, by stworzyć grupę Lookalike i przetestować ją z małym budżetem.</li>
+                            </ul>
+                        </td>
+                        <td class="budget-highlight">~1000 PLN</td>
+                    </tr>
+                    <tr class="total-budget-row">
+                        <td colspan="4"><strong>Miesięczny Budżet Całkowity</strong></td>
+                        <td><strong>5000 PLN</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="month-section">
+            <h3 class="month-title">Miesiąc 3: Maksymalizacja ROI i Planowanie Strategiczne</h3>
+            <p class="mb-4 text-sm"><strong>Cel Miesiąca:</strong> Maksymalizacja zwrotu z inwestycji poprzez alokację budżetu wyłącznie do najskuteczniejszych działań. Dogłębna analiza jakości leadów i przygotowanie rekomendacji na kolejny kwartał.</p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Kanał Reklamowy</th>
+                        <th colspan="3">Działania i Optymalizacje</th>
+                        <th>Budżet Miesięczny</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="vertical-align: top; background-color: #f5f8ff;"><strong>LinkedIn Ads</strong></td>
+                        <td colspan="3">
+                             <ul>
+                                <li>Skupienie budżetu na kampanii i kreacji o najniższym CPL i najwyższej jakości leadów.</li>
+                                <li>Wstrzymanie mniej efektywnych postów/reklam.</li>
+                                <li>Analiza firm i stanowisk, które najczęściej konwertują i przygotowanie planu dalszego zawężania targetowania.</li>
+                            </ul>
+                        </td>
+                        <td class="budget-highlight">~2500 PLN</td>
+                    </tr>
+                     <tr>
+                        <td style="vertical-align: top; background-color: #e8f5e9;"><strong>Google Ads</strong></td>
+                        <td colspan="3">
+                            <ul>
+                                <li>Koncentracja budżetu na 2-3 grupach reklam i słowach kluczowych, które historycznie przyniosły najlepsze wyniki.</li>
+                                <li>Analiza ścieżek konwersji – czy użytkownicy z Google Ads konwertują od razu, czy po kontakcie z innymi kanałami?</li>
+                            </ul>
+                        </td>
+                        <td class="budget-highlight">~1500 PLN</td>
+                    </tr>
+                    <tr>
+                        <td style="vertical-align: top; background-color: #fff3e0;"><strong>Meta Ads</strong></td>
+                        <td colspan="3">
+                            <ul>
+                                <li>Kontynuacja remarketingu z odświeżonymi kreacjami, aby uniknąć "zmęczenia reklamą".</li>
+                                <li>Ocena, czy budżet na Meta Ads przynosi zwrot w postaci zamkniętych umów (weryfikacja z działem sprzedaży).</li>
+                            </ul>
+                        </td>
+                        <td class="budget-highlight">~1000 PLN</td>
+                    </tr>
+                    <tr class="total-budget-row">
+                        <td colspan="4"><strong>Miesięczny Budżet Całkowity</strong></td>
+                        <td><strong>5000 PLN</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+             <div class="notes">
+                <strong>Uwagi do Miesiąca 3:</strong> To miesiąc twardej analityki. Na koniec miesiąca przygotowujemy raport podsumowujący cały kwartał z rekomendacjami: które kanały kontynuować, które wstrzymać, a także propozycje nowych tematów komunikacji na podstawie zebranych danych.
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
